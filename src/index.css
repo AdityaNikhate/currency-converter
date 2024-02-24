@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 236, 236);
+}
+
+.hero{
+  width: 320px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 3px;
+  border-top: 4px solid royalblue;
+  border-bottom: 4px solid rgb(185, 184, 184);
+}
+.hero label{
+  font-size: 12px;
+  font-weight: 900;
+  color: gray;
+}
+
+.heading{
+  text-align: center;
+  color: royalblue;
+  font-family: "Kode Mono", monospace;
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+.info{
+  font-family: "Kode Mono", monospace;
+  text-align: center;
+  font-weight: 700;
+}
+.hero h1{
+  margin: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.hero h6{
+  margin: 0;
+  text-align: center;
+}
+
+.hero input{
+  width: 100%;
+  padding: 4px 10px;
+  box-sizing: border-box;
+  font-size: 20px;
+  border: 1px solid gray;
+  outline: none;
+}
+ 
+/* To hide the updown arrows in input="number" tag input space */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.fromTo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.fromTo select{
+  padding: 2px 8px;
+}
+
+button{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 6px ;
+  font-weight: 600;
+  background-color: royalblue;
+  color: #fff;
+  border: none;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
